@@ -1,0 +1,1 @@
+export const bitcoinValue = 3915306.39;
