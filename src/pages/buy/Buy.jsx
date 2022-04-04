@@ -17,7 +17,7 @@ const Buy = () => {
         <form className='form'>
             <h2>1 руб = {(1 / bitcoinValue).toFixed(10)}btc</h2>
             <Input changeValue={changeData} label={'Списать'} placeholder={'15.00р - 12500.00р'}/>
-            <h1>{value ? `${value}btc` : '0'}</h1>
+            <h1>{value ? `${value}btc` : '0btc'}</h1>
             <Button text={'Купить'}/>
         </form>
     )
