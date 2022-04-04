@@ -17,7 +17,7 @@ const Sell = () => {
         <form className='form'>
             <h2>1 btc = {bitcoinValue}</h2>
             <Input changeValue={changeData} label={'Продать'} placeholder={'0.0001btc - 12500.00btc'}/>
-            <h1>{value ? value : '0'}</h1>
+            <h1>{value ? `${value}руб` : '0.00руб'}</h1>
             <Button text={'Продать'}/>
         </form>
     )
