@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/buy" element={<Buy/>}/>
+          <Route index path="/" element={<Buy/>}/>
           <Route path="/sell" element={<Sell/>}/>
         </Routes>
       </BrowserRouter>
