@@ -15,7 +15,7 @@ const Navbar = () => {
             <i className='icon bi bi-currency-bitcoin'></i>
             <h1 className="title">Купить биткоин</h1>
             <div onClick={(e) => changeClass(e)} className='navbar-wrapper'>
-                <Link className='navbar__link active' to="/buy">Купить</Link>
+                <Link className='navbar__link active' to="/">Купить</Link>
                 <Link className='navbar__link' to="/sell">Продать</Link>
             </div>
         </div>
